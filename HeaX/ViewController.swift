@@ -15,6 +15,13 @@ let message = "hi"
         // Do any additional setup after loading the view, typically from a nib.
         print("You can see me")
         print(message)
+        
+        func reverse(text:String) -> String{
+            
+            return String(text.reversed())
+            
+        }
+        print(reverse(text: "stressed"))
     }
 
     override func didReceiveMemoryWarning() {
